@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Template de login, usando Bootstrap.</title>
+<title>Login</title>
 
 
 <link href="${request.contextPath}bootstrap/css/bootstrap.min.css"
@@ -24,7 +24,7 @@
 
 		<label for="email" class="sr-only">Endereço de email</label> <input
 			type="email" name="email" id="email" class="form-control"
-			placeholder="Seu email" required autofocus> <br /> <label
+			placeholder="Seu email" required autofocus> <br/> <label
 			for="inputPassword" class="sr-only">Senha</label> <input
 			type="password" name="senha" id="senha" class="form-control"
 			placeholder="Senha" required>

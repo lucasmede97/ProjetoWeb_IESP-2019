@@ -47,7 +47,6 @@
     </li>
   </ul>
 </nav>
-
 <div class="container-fluid">
   <div class="row">
     <nav class="col-md-2 d-none d-md-block bg-light sidebar">
@@ -56,6 +55,7 @@
           <li class="nav-item">
             <a class="nav-link active" href="#">
               <span data-feather="home"></span>
+              <br/>
               Dashboard <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -63,7 +63,7 @@
         
         <ul class="nav flex-column mb-2">
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="${request.contextPath}contatoController">
               <span data-feather="file-text"></span>
               Contatos
             </a>
